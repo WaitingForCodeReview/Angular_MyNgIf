@@ -1,0 +1,6 @@
+<div>
+  <button (click)="showDiv = !showDiv">{{ showDiv ? 'HIDE' : 'SHOW' }}</button>
+</div>
+<div *appMyNgIf="showDiv">
+  <p>Hello world</p>
+</div>

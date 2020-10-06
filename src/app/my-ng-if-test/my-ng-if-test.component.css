@@ -1,0 +1,10 @@
+div {
+  text-align: center;
+  width: 100%;
+}
+p {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
