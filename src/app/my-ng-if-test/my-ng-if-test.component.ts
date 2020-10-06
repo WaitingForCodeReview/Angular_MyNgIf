@@ -5,12 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './my-ng-if-test.component.html',
   styleUrls: ['./my-ng-if-test.component.css']
 })
-export class MyNgIfTestComponent implements OnInit {
-  showDiv: boolean = true;
+export class MyNgIfTestComponent {
+  showDiv: boolean = true
+  hideText: string = 'HIDE'
+  showText: string = 'SHOW'
 
-  constructor() { }
-
-  ngOnInit(): void {
+  toggleShow() {
+    this.showDiv = !this.showDiv;
   }
-
 }
